@@ -30,7 +30,7 @@ connection.connect(err => {
 // app.use(cors());
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/home/ubuntu/woistluis/Client/build/index.html")
+    res.sendFile("/home/ubuntu/woistluis/Client/build/index.html")
 });
 
 app.get("/bets", (req, res) => {
