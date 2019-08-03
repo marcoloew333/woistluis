@@ -28,10 +28,15 @@ connection.connect(err => {
 });
 
 // app.use(cors());
+app.use(express.static("/home/ubuntu/woistluis/Client/build"));
 
-app.get("/", (req, res) => {
-    res.sendFile("/home/ubuntu/woistluis/Client/build/index.html")
+app.get("/", function(req, res){
+    res.sendFile("/home/ubuntu/woistluis/Client/build/index.html");
 });
+
+// app.get("/", (req, res) => {
+//     res.sendFile("/home/ubuntu/woistluis/Client/build/index.html")
+// });
 
 app.get("/bets", (req, res) => {
     connection.query(SELECT_ALL_BETS_QUERY, (err, results) => {
