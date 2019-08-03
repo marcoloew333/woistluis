@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   getBets = _ => {
-    fetch("http://www.woistluis.moodlions.de/bets") //http://www.woistluis.moodlions.de/bets //http://192.168.178.198:4000
+    fetch("http://ec2-54-157-54-3.compute-1.amazonaws.com/bets") //http://www.woistluis.moodlions.de/bets //http://192.168.178.198:4000
         .then(response => response.json())
         .then(response => this.setState({bets: response.data}))
         .catch(err => console.error(err))
@@ -25,7 +25,7 @@ class App extends Component {
   addBet = _ => {
     const { bet } = this.state;
 
-    fetch(`http://www.woistluis.moodlions.de/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`) //http://www.woistluis.moodlions.de/bets
+    fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`) //http://www.woistluis.moodlions.de/bets
         .then(response => response.json())
         .then(this.getProducts)
         .catch(err => console.error(err))
