@@ -30,7 +30,7 @@ connection.connect(err => {
 // app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send("go to /bets to see products")
+    res.sendFile("../Client/build/index.html")
 });
 
 app.get("/bets", (req, res) => {
