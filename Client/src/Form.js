@@ -22,7 +22,7 @@ class Form extends Component {
     render() {
         const { bet } = this.state;
         return (
-            <div className="form">
+            <div className="form-container">
                 <label htmlFor="name">Name</label>
                 <input
                     id="name"

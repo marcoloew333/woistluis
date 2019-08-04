@@ -27,7 +27,7 @@ class Bets extends Component {
     render() {
         const { bets } = this.state;
         return (
-            <div>
+            <div className="bet-container">
                 {bets.map(this.renderBets)}
             </div>
         )
