@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="Changed a lot 12^">
+    <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="Changed a lot 14">
+      <change afterPath="$PROJECT_DIR$/Client/src/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/precache-manifest.9665cc7b310c062a9ad3b212f25ad1f3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/css/main.2cce8147.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/css/main.2cce8147.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/js/main.3af72dc0.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/js/main.3af72dc0.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,32 +30,24 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server/server2.js">
+        <entry file="file://$PROJECT_DIR$/Client/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="61" lean-forward="true" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="512">
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/src/App.js">
+        <entry file="file://$PROJECT_DIR$/Client/src/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="75">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,34 +57,16 @@
         <entry file="file://$PROJECT_DIR$/Client/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="208" selection-start-column="208" selection-end-column="208" />
+              <caret column="1985" lean-forward="true" selection-start-column="1985" selection-end-column="1985" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/build/static/js/main.3af72dc0.chunk.js">
+        <entry file="file://$PROJECT_DIR$/Client/src/Header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/build/static/js/2.4282bdd0.chunk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -91,6 +77,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -114,8 +101,14 @@
         <option value="$PROJECT_DIR$/Server/package.json" />
         <option value="$PROJECT_DIR$/Client/server.js" />
         <option value="$PROJECT_DIR$/Server/server.js" />
-        <option value="$PROJECT_DIR$/Server/server2.js" />
         <option value="$PROJECT_DIR$/Client/public/index.html" />
+        <option value="$PROJECT_DIR$/Server/server2.js" />
+        <option value="$PROJECT_DIR$/Client/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Client/src/index.css" />
+        <option value="$PROJECT_DIR$/Client/src/Header.css" />
+        <option value="$PROJECT_DIR$/Client/src/App.js" />
+        <option value="$PROJECT_DIR$/Client/src/Header.js" />
         <option value="$PROJECT_DIR$/Client/build/index.html" />
       </list>
     </option>
@@ -155,25 +148,7 @@
               <item name="woistluis" type="b2602c69:ProjectViewProjectNode" />
               <item name="woistluis" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woistluis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woistluis" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="woistluis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="woistluis" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="2.4282bdd0.chunk.js" type="620a8d5e:NestingTreeNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="woistluis" type="b2602c69:ProjectViewProjectNode" />
@@ -189,6 +164,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -215,7 +191,7 @@
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
+      <package-json value="$PROJECT_DIR$/Client/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -224,6 +200,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -235,7 +215,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564849935465</updated>
-      <workItem from="1564849936988" duration="8034000" />
+      <workItem from="1564849936988" duration="10070000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1564850118089</created>
@@ -335,11 +315,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564863338121</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Changed a lot 13">
+      <created>1564866434038</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564866434038</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changed a lot 14">
+      <created>1564877030073</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564877030073</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8034000" />
+    <option name="totallyTimeSpent" value="10070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -352,9 +346,9 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.30291972" />
+      <window_info anchor="bottom" id="Messages" weight="0.30291972" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32919708" />
@@ -386,7 +380,9 @@
     <MESSAGE value="Changed a lot 10" />
     <MESSAGE value="Changed a lot 11" />
     <MESSAGE value="Changed a lot 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 12" />
+    <MESSAGE value="Changed a lot 13" />
+    <MESSAGE value="Changed a lot 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 14" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/static/js/2.4282bdd0.chunk.js">
@@ -484,27 +480,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/server2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="61" lean-forward="true" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -513,20 +493,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Client/build/static/js/2.4282bdd0.chunk.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/build/static/js/2.4282bdd0.chunk.js">
+    <entry file="file://$PROJECT_DIR$/Client/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -537,9 +511,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/build/static/js/2.4282bdd0.chunk.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Client/build/static/js/2.4282bdd0.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/build/static/js/main.3af72dc0.chunk.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -548,10 +525,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/server2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Client/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="208" selection-start-column="208" selection-end-column="208" />
+          <caret column="1985" lean-forward="true" selection-start-column="1985" selection-end-column="1985" />
         </state>
       </provider>
     </entry>

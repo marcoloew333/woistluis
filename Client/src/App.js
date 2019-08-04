@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import './App.css';
+import "./Header"
+import Header from "./Header";
 
 class App extends Component {
 
@@ -42,18 +44,19 @@ class App extends Component {
 
         return (
             <div>
-              {bets.map(this.renderBets)}
-              <div>
-                <input
-                    value={bet.person_name}
-                    onChange={e => this.setState({bet: { ...bet, person_name: e.target.value}})}
-                />
-                <input
-                    value={bet.time_bet}
-                    onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
-                />
-                <button onClick={this.addBet}>Wette abgeben</button>
-              </div>
+                <Header/>
+                <div>
+                    <input
+                        value={bet.person_name}
+                        onChange={e => this.setState({bet: { ...bet, person_name: e.target.value}})}
+                    />
+                    <input
+                        value={bet.time_bet}
+                        onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
+                    />
+                    <button onClick={this.addBet}>Wette abgeben</button>
+                </div>
+                {bets.map(this.renderBets)}
             </div>
         )
     }
