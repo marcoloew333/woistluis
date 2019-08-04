@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Client/build/static/css/main.88465645.chunk.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/build/static/js/main.4816e407.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/build/static/js/main.4816e407.chunk.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/precache-manifest.aac3387f1b88bbb11ebbd0b9e5781bae.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/precache-manifest.903cf3ac8c5d3b941dbb961c0b82d7c1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/precache-manifest.903cf3ac8c5d3b941dbb961c0b82d7c1.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/static/css/main.e9adfefd.chunk.css" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/static/css/main.88465645.chunk.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/static/css/main.e9adfefd.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/static/js/main.c224f00e.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/static/js/main.c224f00e.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/css/main.88465645.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/css/main.88465645.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/Form.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/Form.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="345">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -93,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/Client/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="277" selection-start-column="277" selection-end-column="277" />
+              <caret column="1967" lean-forward="true" selection-start-column="1967" selection-end-column="1967" />
             </state>
           </provider>
         </entry>
@@ -150,8 +145,8 @@
         <option value="$PROJECT_DIR$/Client/src/App.css" />
         <option value="$PROJECT_DIR$/Client/src/Bets.js" />
         <option value="$PROJECT_DIR$/Client/src/Form.js" />
-        <option value="$PROJECT_DIR$/Client/src/Form.css" />
         <option value="$PROJECT_DIR$/Client/src/Bets.css" />
+        <option value="$PROJECT_DIR$/Client/src/Form.css" />
         <option value="$PROJECT_DIR$/Client/build/index.html" />
       </list>
     </option>
@@ -253,7 +248,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564849935465</updated>
       <workItem from="1564849936988" duration="11439000" />
-      <workItem from="1564920550083" duration="3866000" />
+      <workItem from="1564920550083" duration="4001000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1564850118089</created>
@@ -416,11 +411,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564924673426</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Changed a lot 21">
+      <created>1564924732320</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1564924732320</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15305000" />
+    <option name="totallyTimeSpent" value="15440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -617,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Bets.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -631,10 +626,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/Form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Client/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="277" selection-start-column="277" selection-end-column="277" />
+          <caret column="1967" lean-forward="true" selection-start-column="1967" selection-end-column="1967" />
         </state>
       </provider>
     </entry>
