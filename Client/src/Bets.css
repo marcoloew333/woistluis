@@ -12,3 +12,7 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+
+.name {
+    padding-right: 3rem;
+}

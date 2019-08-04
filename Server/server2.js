@@ -49,8 +49,7 @@ app.get("/bets", (req, res) => {
 
 app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
-    const act_time = new Date();
-    // const INSERT_BET = `INSERT INTO markers (id, name, address, lat, lng, type) VALUES ('2, ${name}, ${bet}, ${count1}, ${count2}, ${type}')`;
+    const act_time = new Date.now();
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", "${act_time}")`;
     connection.query(INSERT_BET, (err, res) => {
         if (err) {
