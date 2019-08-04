@@ -12,13 +12,13 @@ const app = express(); //initialize express
 
 // const PORT = process.env.port;
 
-const SELECT_ALL_BETS_QUERY = "SELECT * FROM markers";
+const SELECT_ALL_BETS_QUERY = "SELECT * FROM bets";
 
 const connection = mysql.createConnection({
-    host: "www.dev.moodlions.de", //http://www.woistluis.moodlions.de
-    user: "d02cda97", //d02f0948
-    password: "*master1819devproj#", //*woistluis#
-    database: "d02cda97" //d02f0948
+    host: "www.woistluis.moodlions.de", //http://www.woistluis.moodlions.de
+    user: "d02f0948", //d02f0948 //d02cda97
+    password: "*woistluis#", //*woistluis# //*master1819devproj#
+    database: "d02f0948" //d02f0948 //d02cda97
 });
 
 connection.connect(err => {
@@ -34,10 +34,6 @@ app.get("/", function(req, res){
     res.sendFile("/home/ubuntu/woistluis/Client/build/index.html");
 });
 
-// app.get("/", (req, res) => {
-//     res.sendFile("/home/ubuntu/woistluis/Client/build/index.html")
-// });
-
 app.get("/bets", (req, res) => {
     connection.query(SELECT_ALL_BETS_QUERY, (err, results) => {
         if (err) {
@@ -52,10 +48,11 @@ app.get("/bets", (req, res) => {
 });
 
 app.get("/bets/add", (req, res) => {
-    const {name, bet, count1, count2, type} = req.query;
+    const {name, bet} = req.query;
+    const act_time = new Date();
     // const INSERT_BET = `INSERT INTO markers (id, name, address, lat, lng, type) VALUES ('2, ${name}, ${bet}, ${count1}, ${count2}, ${type}')`;
-    const INSERT_BET = `INSERT INTO markers (name, address, lat, lng, type) VALUES("${name}", "${bet}", 99, 88, "test3")`;
-    connection.query(INSERT_BET, (err, results) => {
+    const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", "${act_time}")`;
+    connection.query(INSERT_BET, (err, res) => {
         if (err) {
             return res.send(err);
         }

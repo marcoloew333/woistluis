@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './App.css';
 import "./Header"
 import Header from "./Header";
+import Form from "./Form";
 
 class App extends Component {
 
@@ -44,7 +45,8 @@ class App extends Component {
 
         return (
             <div>
-                <Header/>
+                <Header />
+                <Form />
                 <div>
                     <input
                         value={bet.person_name}
