@@ -4,22 +4,10 @@ import "./Form.css";
 class Form extends Component {
 
     state = {
-        bets: [],
         bet: {
             person_name: "Peter Pan",
             time_bet: "10:17 Uhr"
         }
-    };
-
-    componentDidMount() {
-        this.getBets();
-    }
-
-    getBets = _ => {
-        fetch("http://ec2-54-157-54-3.compute-1.amazonaws.com/bets") //http://www.woistluis.moodlions.de/bets //http://192.168.178.198:4000
-            .then(response => response.json())
-            .then(response => this.setState({bets: response.data}))
-            .catch(err => console.error(err))
     };
 
     addBet = _ => {
@@ -32,6 +20,7 @@ class Form extends Component {
     };
 
     render() {
+        const { bet } = this.state;
         return (
             <div>
                 <input
