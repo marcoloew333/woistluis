@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="Changed a lot 14">
-      <change afterPath="$PROJECT_DIR$/Client/src/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/asset-manifest.json" afterDir="false" />
+    <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/precache-manifest.9665cc7b310c062a9ad3b212f25ad1f3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/static/css/main.2cce8147.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/static/css/main.2cce8147.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/static/js/main.3af72dc0.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/build/static/js/main.3af72dc0.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
+            <state relative-caret-position="533">
               <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -57,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/Client/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="1985" lean-forward="true" selection-start-column="1985" selection-end-column="1985" />
+              <caret column="245" selection-start-column="245" selection-end-column="245" />
             </state>
           </provider>
         </entry>
@@ -215,7 +201,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564849935465</updated>
-      <workItem from="1564849936988" duration="10070000" />
+      <workItem from="1564849936988" duration="10345000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1564850118089</created>
@@ -329,11 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564877030073</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changed a lot 15">
+      <created>1564880002858</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564880002858</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10070000" />
+    <option name="totallyTimeSpent" value="10345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -346,9 +339,9 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.30291972" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.30291972" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32919708" />
@@ -382,7 +375,8 @@
     <MESSAGE value="Changed a lot 12" />
     <MESSAGE value="Changed a lot 13" />
     <MESSAGE value="Changed a lot 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 14" />
+    <MESSAGE value="Changed a lot 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 15" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/static/js/2.4282bdd0.chunk.js">
@@ -555,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -582,10 +566,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Client/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1985" lean-forward="true" selection-start-column="1985" selection-end-column="1985" />
+          <caret column="245" selection-start-column="245" selection-end-column="245" />
         </state>
       </provider>
     </entry>
