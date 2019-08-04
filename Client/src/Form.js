@@ -22,12 +22,18 @@ class Form extends Component {
     render() {
         const { bet } = this.state;
         return (
-            <div>
+            <div className="form">
+                <label htmlFor="name">Name</label>
                 <input
+                    id="name"
+                    className="name-input"
                     value={bet.person_name}
                     onChange={e => this.setState({bet: { ...bet, person_name: e.target.value}})}
                 />
+                <label htmlFor="bet">Geschätzte Ankunftszeit</label>
                 <input
+                    id="bet"
+                    className="bet-input"
                     value={bet.time_bet}
                     onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
                 />

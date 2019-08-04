@@ -19,7 +19,7 @@ class Bets extends Component {
     };
 
     renderBets = ({ bet_id, name, bet }) =>
-        <div key={bet_id}>
+        <div className="bet-entry" key={bet_id}>
             <p>{name}</p>
             <p>{bet}</p>
         </div>;

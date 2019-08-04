@@ -47,8 +47,10 @@ class App extends Component {
         return (
             <div>
                 <Header />
-                <Form />
-                <Bets />
+                <div className="content">
+                    <Form />
+                    <Bets />
+                </div>
             </div>
         )
     }
