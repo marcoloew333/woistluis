@@ -50,7 +50,7 @@ app.get("/bets", (req, res) => {
 app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
     // const act_time = new Date.now();
-    const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", "CURTIME()")`;
+    const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`;
     connection.query(INSERT_BET, (err, res) => {
         if (err) {
             return res.send(err);
