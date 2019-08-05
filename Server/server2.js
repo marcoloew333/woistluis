@@ -58,8 +58,8 @@ app.get("/bets/add", (req, res) => {
             return res.send(err);
         }
         else {
-            this.getBets();
-            console.log(NAME_CHECK);
+            // this.getBets();
+            // console.log(NAME_CHECK);
             return res.send("succesfully added your bet");
         }
     })
