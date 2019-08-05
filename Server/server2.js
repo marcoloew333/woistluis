@@ -1,6 +1,7 @@
 const express = require("express");
 // const cors = require("cors");
 const mysql = require("mysql");
+import Bets from "../Client/src/Bets";
 
 const app = express(); //initialize express
 
@@ -50,13 +51,16 @@ app.get("/bets", (req, res) => {
 app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
     // const act_time = new Date.now();
-    const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`;
+    const NAME_CHECK = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
+    const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
     connection.query(INSERT_BET, (err, res) => {
         if (err) {
             return res.send(err);
         }
         else {
-            return res.send("succesfully added your bet")
+            this.getBets();
+            console.log(NAME_CHECK);
+            return res.send("succesfully added your bet");
         }
     })
 });

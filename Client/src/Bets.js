@@ -12,7 +12,7 @@ class Bets extends Component {
     }
 
     getBets = _ => {
-        fetch("http://ec2-54-157-54-3.compute-1.amazonaws.com/bets") //http://www.woistluis.moodlions.de/bets //http://192.168.178.198:4000
+        fetch("http://ec2-54-157-54-3.compute-1.amazonaws.com/bets")
             .then(response => response.json())
             .then(response => this.setState({bets: response.data}))
             .catch(err => console.error(err))
