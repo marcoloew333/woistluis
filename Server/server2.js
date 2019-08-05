@@ -1,5 +1,5 @@
 const express = require("express");
-// const cors = require("cors");
+const cors = require("cors");
 const mysql = require("mysql");
 // import Bets from "/home/ubuntu/woistluis/Client/src/Bets";
 
@@ -28,7 +28,7 @@ connection.connect(err => {
     }
 });
 
-// app.use(cors());
+app.use(cors());
 app.use(express.static("/home/ubuntu/woistluis/Client/build"));
 
 app.get("/", function(req, res){
