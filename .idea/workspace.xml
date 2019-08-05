@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/Bets.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/Bets.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/server2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/server2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="68" lean-forward="true" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+            <state relative-caret-position="150">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -93,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/Server/server2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="915">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+              <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -252,7 +251,7 @@
       <workItem from="1564849936988" duration="11439000" />
       <workItem from="1564920550083" duration="5185000" />
       <workItem from="1564946957331" duration="313000" />
-      <workItem from="1565029690847" duration="1402000" />
+      <workItem from="1565029690847" duration="1793000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1564850118089</created>
@@ -450,11 +449,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564929628851</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Changed a lot 26">
+      <created>1565031317372</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1565031317372</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Changed a lot 27">
+      <created>1565031649202</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1565031649202</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18339000" />
+    <option name="totallyTimeSpent" value="18730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -486,8 +499,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed a lot" />
-    <MESSAGE value="Changed a lot 2" />
     <MESSAGE value="Changed a lot 3" />
     <MESSAGE value="Changed a lot 4" />
     <MESSAGE value="Changed a lot 5" />
@@ -511,7 +522,9 @@
     <MESSAGE value="Changed a lot 23" />
     <MESSAGE value="Changed a lot 24" />
     <MESSAGE value="Changed a lot 25" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 25" />
+    <MESSAGE value="Changed a lot 26" />
+    <MESSAGE value="Changed a lot 27" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 27" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/static/js/2.4282bdd0.chunk.js" />
@@ -649,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="68" lean-forward="true" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+        <state relative-caret-position="150">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -660,7 +673,7 @@
     <entry file="file://$PROJECT_DIR$/Server/server2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
         </state>
       </provider>
     </entry>
