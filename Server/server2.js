@@ -1,7 +1,7 @@
 const express = require("express");
 // const cors = require("cors");
 const mysql = require("mysql");
-import Bets from "../Client/src/Bets";
+import Bets from "/home/ubuntu/woistluis/Client/src/Bets";
 
 const app = express(); //initialize express
 
