@@ -59,7 +59,7 @@ app.get("/bets/add", (req, res) => {
         }
         else {
             // this.getBets();
-            // console.log(NAME_CHECK);
+            console.log("NAME_CHECK");
             return res.send("succesfully added your bet");
         }
     })
