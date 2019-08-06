@@ -38,7 +38,7 @@ app.use(express.static("/home/ubuntu/woistluis/Client/build"));
 
 app.get("/", function(req, res){
     res.sendFile("/home/ubuntu/woistluis/Client/build/index.html");
-    console.log(req.headers())
+    console.log("PENIS")
 });
 
 app.get("/bets", (req, res) => {
