@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import "./Form.css";
+const request = require('request');
 
 class Form extends Component {
+
 
     state = {
         bet: {
@@ -13,13 +15,11 @@ class Form extends Component {
     addBet = _ => {
 
         const { bet } = this.state;
-
-        const request = require('request');
-        // request('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY', { json: true }, (err, res, body) => {
-        //     if (err) { return console.log(err); }
-        //     console.log(body.url);
-        //     console.log(body.explanation);
-        // });
+        request('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY', { json: true }, (err, res, body) => {
+            if (err) { return console.log(err); }
+            console.log(body.url);
+            console.log(body.explanation);
+        });
 
         // fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`) //http://www.woistluis.moodlions.de/bets
         //     .then(response => response.json())
