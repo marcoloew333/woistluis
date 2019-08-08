@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/server2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/server2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1565111479358" duration="2009000" />
       <workItem from="1565197274157" duration="2408000" />
       <workItem from="1565247218985" duration="67000" />
-      <workItem from="1565247291112" duration="51000" />
+      <workItem from="1565247291112" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1564850118089</created>
@@ -408,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565204910053</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Changed a lot 42">
+      <created>1565247357926</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1565247357926</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed a lot 17" />
     <MESSAGE value="Changed a lot 18" />
     <MESSAGE value="Changed a lot 19" />
     <MESSAGE value="Changed a lot 20" />
@@ -453,6 +458,7 @@
     <MESSAGE value="Changed a lot 39" />
     <MESSAGE value="Changed a lot 40" />
     <MESSAGE value="Changed a lot 41" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 41" />
+    <MESSAGE value="Changed a lot 42" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 42" />
   </component>
 </project>
