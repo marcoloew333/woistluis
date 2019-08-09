@@ -31,7 +31,7 @@ connection.connect(err => {
 app.use(cors());
 
 app.use(function (request, response, next) {
-    console.log("Time:", Date.now());
+    response.send("PENIS");
     next();
 });
 
