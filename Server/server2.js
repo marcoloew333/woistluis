@@ -16,10 +16,10 @@ const app = express(); //initialize express
 const SELECT_ALL_BETS_QUERY = "SELECT * FROM bets";
 
 const connection = mysql.createConnection({
-    host: "www.woistluis.moodlions.de", //http://www.woistluis.moodlions.de
-    user: "d02f0948", //d02f0948 //d02cda97
-    password: "*woistluis#", //*woistluis# //*master1819devproj#
-    database: "d02f0948" //d02f0948 //d02cda97
+    host: "database-2.czmahuylwyxb.eu-central-1.rds.amazonaws.com", //http://www.woistluis.moodlions.de
+    user: "admin", //d02f0948 //d02cda97
+    password: "asdf1234", //*woistluis# //*master1819devproj#
+    database: "woistluisdb" //d02f0948 //d02cda97
 });
 
 connection.connect(err => {
@@ -56,7 +56,6 @@ app.get("/bets", (req, res) => {
 
 app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
-    // const act_time = new Date.now();
     const NAME_CHECK = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
     connection.query(INSERT_BET, (err, res) => {
