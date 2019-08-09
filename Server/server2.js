@@ -60,7 +60,7 @@ app.get("/bets", (req, res) => {
     })
 });
 
-app.get("/bets/add", (req, res) => {
+app.get("/bets/add", (req) => {
     const {name, bet} = req.query;
     const NAME_CHECK = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
