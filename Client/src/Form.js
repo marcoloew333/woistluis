@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Form.css";
-const request = require('request');
+// const request = require('request');
 
 class Form extends Component {
 
@@ -15,15 +15,15 @@ class Form extends Component {
     addBet = _ => {
 
         const { bet } = this.state;
-        request(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`, { json: true }, (err, res, body) => {
-            if (err) { return console.log(err); }
-            console.log("PENIS");
-        });
+        // request(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`, { json: true }, (err, res, body) => {
+        //     if (err) { return console.log(err); }
+        //     console.log("PENIS");
+        // });
 
-        // fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`) //http://www.woistluis.moodlions.de/bets
-        //     .then(response => response.json())
-        //     .then(this.getBets)
-        //     .catch(err => console.error(err))
+        fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`) //http://www.woistluis.moodlions.de/bets
+            .then(response => response.json())
+            .then(this.getBets)
+            .catch(err => console.error(err))
     };
 
     render() {

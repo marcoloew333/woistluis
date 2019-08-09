@@ -29,6 +29,12 @@ connection.connect(err => {
 });
 
 app.use(cors());
+
+app.use(function (request, response, next) {
+    console.log("Time:", Date.now());
+    next();
+});
+
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "http://ec2-54-157-54-3.compute-1.amazonaws.com"); // update to match the domain you will make the request from
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
@@ -60,7 +66,7 @@ app.get("/bets/add", (req, res) => {
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
     connection.query(INSERT_BET, (err, res) => {
         if (err) {
-            return res.send("PENIS");
+            return res.send(err);
         }
         else {
             // this.getBets();
