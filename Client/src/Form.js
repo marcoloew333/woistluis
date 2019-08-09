@@ -27,8 +27,8 @@ class Form extends Component {
                 }
                 throw new Error('Network response was not ok.');
                 })
-            .then(response => response.json())
-            .then(this.getBets)
+            // .then(response => response.json())
+            // .then(this.getBets)
             .catch(err => console.error(err))
     };
 
