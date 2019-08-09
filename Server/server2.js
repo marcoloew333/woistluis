@@ -30,10 +30,10 @@ connection.connect(err => {
 
 app.use(cors());
 
-app.use(function (request, response, next) {
-    response.send("PENIS");
-    next();
-});
+// app.use(function (request, response, next) {
+//     response.send("PENIS");
+//     next();
+// });
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "http://ec2-54-157-54-3.compute-1.amazonaws.com"); // update to match the domain you will make the request from

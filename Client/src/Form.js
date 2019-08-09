@@ -20,7 +20,7 @@ class Form extends Component {
         //     console.log("PENIS");
         // });
 
-        fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`) //http://www.woistluis.moodlions.de/bets
+        fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`) //http://ec2-54-157-54-3.compute-1.amazonaws.com //localhost:4000
             .then(response => response.json())
             .then(this.getBets)
             .catch(err => console.error(err))
