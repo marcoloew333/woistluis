@@ -21,6 +21,12 @@ class Form extends Component {
         // });
 
         fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`) //http://ec2-54-157-54-3.compute-1.amazonaws.com //localhost:4000
+            .then(function(response) {
+                if(response.ok) {
+                return response.blob();
+                }
+                throw new Error('Network response was not ok.');
+                })
             .then(response => response.json())
             .then(this.getBets)
             .catch(err => console.error(err))

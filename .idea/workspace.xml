@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Server/server2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/server2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/build/precache-manifest.0fa598da9b62a41acd9b2804abf9619f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/build/static/js/main.243ed7f5.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/build/static/js/main.243ed7f5.chunk.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/precache-manifest.4e708f35a8b7b4e8b327a5bd92b03cb3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/js/main.283fd694.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/js/main.283fd694.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/Form.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/Form.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -60,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/Bets.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="120" selection-start-line="14" selection-start-column="120" selection-end-line="14" selection-end-column="120" />
+            <state relative-caret-position="105">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -87,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/server2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="592">
+              <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -142,8 +152,8 @@
         <option value="$PROJECT_DIR$/Client/src/Bets.css" />
         <option value="$PROJECT_DIR$/Client/build/index.html" />
         <option value="$PROJECT_DIR$/Client/src/Bets.js" />
-        <option value="$PROJECT_DIR$/Client/src/Form.js" />
         <option value="$PROJECT_DIR$/Server/server2.js" />
+        <option value="$PROJECT_DIR$/Client/src/Form.js" />
       </list>
     </option>
   </component>
@@ -271,28 +281,7 @@
       <workItem from="1565111479358" duration="2009000" />
       <workItem from="1565197274157" duration="3284000" />
       <workItem from="1565363287122" duration="1043000" />
-      <workItem from="1565370166616" duration="4483000" />
-    </task>
-    <task id="LOCAL-00002" summary="Added dependencies to package.json">
-      <created>1564850585168</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1564850585168</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Disabled CORS">
-      <created>1564851743357</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1564851743357</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Changed a lot 2">
-      <created>1564860845379</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1564860845379</updated>
+      <workItem from="1565370166616" duration="5573000" />
     </task>
     <task id="LOCAL-00005" summary="Changed a lot 3">
       <created>1564861200682</created>
@@ -616,15 +605,35 @@
       <option name="project" value="LOCAL" />
       <updated>1565382954627</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Changed a lot 46">
+      <created>1565383024024</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1565383024024</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Changed a lot 47">
+      <created>1565383130263</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1565383130263</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Changed a lot 48">
+      <created>1565383238888</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1565383238888</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31048000" />
+    <option name="totallyTimeSpent" value="32138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -652,8 +661,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed a lot 22" />
-    <MESSAGE value="Changed a lot 23" />
     <MESSAGE value="Changed a lot 24" />
     <MESSAGE value="Changed a lot 25" />
     <MESSAGE value="Changed a lot 26" />
@@ -677,7 +684,9 @@
     <MESSAGE value="Changed a lot 44" />
     <MESSAGE value="Changed a lot 45" />
     <MESSAGE value="Changed a lot 46" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 46" />
+    <MESSAGE value="Changed a lot 47" />
+    <MESSAGE value="Changed a lot 48" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 48" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/static/js/2.4282bdd0.chunk.js" />
@@ -806,30 +815,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Form.js">
+    <entry file="file://$PROJECT_DIR$/Server/server2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="592">
+          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Bets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="120" selection-start-line="14" selection-start-column="120" selection-end-line="14" selection-end-column="120" />
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/server2.js">
+    <entry file="file://$PROJECT_DIR$/Client/src/Form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="345">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
