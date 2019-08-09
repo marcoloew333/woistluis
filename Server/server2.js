@@ -16,7 +16,7 @@ const app = express(); //initialize express
 const SELECT_ALL_BETS_QUERY = "SELECT * FROM bets";
 
 const connection = mysql.createConnection({
-    host: "http://database-2.czmahuylwyxb.eu-central-1.rds.amazonaws.com", //http://www.woistluis.moodlions.de
+    host: "database-2.czmahuylwyxb.eu-central-1.rds.amazonaws.com", //http://www.woistluis.moodlions.de
     user: "admin", //d02f0948 //d02cda97
     password: "asdf1234", //*woistluis# //*master1819devproj#
     database: "woistluisdb" //d02f0948 //d02cda97
