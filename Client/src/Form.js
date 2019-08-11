@@ -5,18 +5,10 @@ class Form extends Component {
 
 
     state = {
-        bets: [],
         bet: {
             person_name: "Peter Pan",
             time_bet: "10:17 Uhr"
         }
-    };
-
-    getBets = _ => {
-        fetch("http://ec2-54-157-54-3.compute-1.amazonaws.com/bets") //http://ec2-54-157-54-3.compute-1.amazonaws.com //localhost:4000
-            .then(response => response.json())
-            .then(response => this.setState({bets: response.data}))
-            .catch(err => console.error(err))
     };
 
     addBet = _ => {
@@ -49,7 +41,6 @@ class Form extends Component {
                     onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
                 />
                 <button onClick={this.addBet}>Wette abgeben</button>
-                <button onClick={this.renderBets}>Aktualisieren</button>
             </div>
         )
     }
