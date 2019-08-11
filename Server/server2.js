@@ -62,10 +62,12 @@ app.get("/bets", (req, res) => {
 app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
     // const NAME_CHECK = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
-    const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
-    connection.query(INSERT_BET, (err, res) => {
+    // const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
+    const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,?)`;
+    // connection.query(INSERT_BET, (err, res) => {
+    connection.query(INSERT_BET,[name,bet,CURTIME()] ,(err, result) => {
         if (err) {
-            return res.send(err + "PENIS");
+            return res.send(err);
         }
         else {
             return res.send("succesfully added your bet");
