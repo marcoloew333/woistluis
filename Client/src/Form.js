@@ -27,6 +27,7 @@ class Form extends Component {
             .then(response => response.json())
             .then(alert("Wette wurde angenommen"))
             .then(this.getBets)
+            .then(this.renderBets)
             .catch(err => console.error(err))
     };
 
