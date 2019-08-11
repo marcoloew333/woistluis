@@ -20,10 +20,17 @@ class Form extends Component {
         //     console.log("PENIS");
         // });
 
-        fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`) //http://ec2-54-157-54-3.compute-1.amazonaws.com //localhost:4000
-            .then(response => response.json())
-            .then(this.getBets)
-            .catch(err => console.error(err))
+        fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add`, { //?name=${bet.person_name}&bet=${bet.time_bet}
+            headers: { "Content-Type": "application/json; charset=utf-8" },
+            method: 'POST',
+            body: JSON.stringify({
+                name: bet.person_name,
+                bet: bet.time_bet,
+            })
+        }) //http://ec2-54-157-54-3.compute-1.amazonaws.com //localhost:4000
+            // .then(response => response.json())
+            // .then(this.getBets)
+            // .catch(err => console.error(err))
     };
 
     render() {

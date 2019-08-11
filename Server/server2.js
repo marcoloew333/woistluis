@@ -44,7 +44,6 @@ app.use(express.static("/home/ubuntu/woistluis/Client/build"));
 
 app.get("/", function(req, res){
     res.sendFile("/home/ubuntu/woistluis/Client/build/index.html");
-    console.log("PENIS")
 });
 
 app.get("/bets", (req, res) => {
@@ -60,17 +59,15 @@ app.get("/bets", (req, res) => {
     })
 });
 
-app.get("/bets/add", (req) => {
+app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
-    const NAME_CHECK = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
+    // const NAME_CHECK = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
     connection.query(INSERT_BET, (err, res) => {
         if (err) {
             return res.send(err);
         }
         else {
-            // this.getBets();
-            console.log("NAME_CHECK");
             return res.send("succesfully added your bet");
         }
     })
