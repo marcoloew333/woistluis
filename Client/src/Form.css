@@ -31,3 +31,7 @@ button:hover {
     padding: 10px 20px;
     font-size: 14px;
 }
+
+.modal {
+    margin-top: 2rem;
+}

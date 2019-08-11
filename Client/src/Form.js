@@ -55,7 +55,8 @@ class Form extends Component {
 
 const Child = () => (
     <div className='modal'>
-        Hello, World!
+        <p>Wette erfolgreich eingetragen.</p>
+        <p>Seite bitte neu laden.</p>
     </div>
 );
 
