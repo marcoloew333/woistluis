@@ -3,13 +3,19 @@ import "./Form.css";
 
 class Form extends Component {
 
-
     state = {
         bet: {
             person_name: "Peter Pan",
             time_bet: "10:17 Uhr"
-        }
+        },
+        isHidden: true
     };
+
+    toggleHidden () {
+        this.setState({
+            isHidden: !this.state.isHidden
+        })
+    }
 
     addBet = _ => {
 
@@ -40,10 +46,17 @@ class Form extends Component {
                     value={bet.time_bet}
                     onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
                 />
-                <button onClick={this.addBet}>Wette abgeben</button>
+                <button onClick={()=>{ this.addBet(); this.toggleHidden() }}>Wette abgeben</button>
+                {!this.state.isHidden && <Child />}
             </div>
         )
     }
 }
+
+const Child = () => (
+    <div className='modal'>
+        Hello, World!
+    </div>
+);
 
 export default Form
