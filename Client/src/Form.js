@@ -6,9 +6,17 @@ class Form extends Component {
 
     state = {
         bet: {
+            bets: [],
             person_name: "Peter Pan",
             time_bet: "10:17 Uhr"
         }
+    };
+
+    getBets = _ => {
+        fetch("http://ec2-54-157-54-3.compute-1.amazonaws.com/bets") //http://ec2-54-157-54-3.compute-1.amazonaws.com //localhost:4000
+            .then(response => response.json())
+            .then(response => this.setState({bets: response.data}))
+            .catch(err => console.error(err))
     };
 
     addBet = _ => {
@@ -17,7 +25,7 @@ class Form extends Component {
 
         fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`)//http://ec2-54-157-54-3.compute-1.amazonaws.com //localhost:4000 //?name=${bet.person_name}&bet=${bet.time_bet}
             .then(response => response.json())
-            .then(alert("test"))
+            .then(alert("Wette wurde angenommen"))
             .then(this.getBets)
             .catch(err => console.error(err))
     };

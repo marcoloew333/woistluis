@@ -4,7 +4,7 @@ import "./Bets.css";
 class Bets extends Component {
 
     state = {
-        bets: [],
+        bets: []
     };
 
     componentDidMount() {
