@@ -70,7 +70,7 @@ app.get("/bets/add", (req, res) => {
             return res.send(err);
         }
         else {
-            return res.send("succesfully added your bet");
+            return res.send({"some":"json"});
         }
     })
 });
