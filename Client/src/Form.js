@@ -5,8 +5,8 @@ class Form extends Component {
 
 
     state = {
+        bets: [],
         bet: {
-            bets: [],
             person_name: "Peter Pan",
             time_bet: "10:17 Uhr"
         }
@@ -27,7 +27,6 @@ class Form extends Component {
             .then(response => response.json())
             .then(alert("Wette wurde angenommen"))
             .then(this.getBets)
-            .then(this.renderBets)
             .catch(err => console.error(err))
     };
 
@@ -50,7 +49,7 @@ class Form extends Component {
                     onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
                 />
                 <button onClick={this.addBet}>Wette abgeben</button>
-                <button onClick={this.getBets}>Aktualisieren</button>
+                <button onClick={this.renderBets}>Aktualisieren</button>
             </div>
         )
     }
