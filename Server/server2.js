@@ -67,7 +67,7 @@ app.get("/bets/add", (req, res) => {
     // connection.query(INSERT_BET, (err, res) => {
     connection.query(INSERT_BET,[name,bet,CURTIME()] ,(err, result) => {
         if (err) {
-            return res.send(err);
+            return res.send(err + "penis");
         }
         else {
             return res.send("succesfully added your bet");
