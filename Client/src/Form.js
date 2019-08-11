@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Form.css";
-// const request = require('request');
 
 class Form extends Component {
 
@@ -15,13 +14,10 @@ class Form extends Component {
     addBet = _ => {
 
         const { bet } = this.state;
-        // request(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`, { json: true }, (err, res, body) => {
-        //     if (err) { return console.log(err); }
-        //     console.log("PENIS");
-        // });
 
         fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`)//http://ec2-54-157-54-3.compute-1.amazonaws.com //localhost:4000 //?name=${bet.person_name}&bet=${bet.time_bet}
             .then(response => response.json())
+            .then(alert("test"))
             .then(this.getBets)
             .catch(err => console.error(err))
     };
