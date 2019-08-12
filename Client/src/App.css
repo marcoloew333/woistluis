@@ -97,6 +97,7 @@ button:hover {
 .bet-entries p {
   width: 30%;
   padding-right: 1rem;
+  font-size: 150%;
   font-family: 'Caveat', cursive;
 }
 
