@@ -74,6 +74,7 @@ button:hover {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 100%;
 }
 
 .column-titles p {
@@ -87,6 +88,7 @@ button:hover {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 100%;
 }
 
 .bet-entries p {
