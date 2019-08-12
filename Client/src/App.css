@@ -72,6 +72,24 @@ button:hover {
   align-items: flex-start;
 }
 
+.column-titles p {
+  width: 10rem;
+  padding-right: 1rem;
+}
+
+.bet-entries {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.bet-entries p {
+  width: 10rem;
+  padding-right: 1rem;
+}
+
 .name {
   padding-right: 3rem;
 }

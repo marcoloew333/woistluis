@@ -79,7 +79,7 @@ class App extends Component {
                 <div className="bet-container">
                     <div className="column-titles">
                         <p>Name</p>
-                        <p>Geschätzte Ankunftszeit</p>
+                        <p>Zeit</p>
                         <p>Timestamp</p>
                     </div>
                     {bets.map(this.renderBets)}
