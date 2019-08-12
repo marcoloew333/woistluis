@@ -1,6 +1,7 @@
 .App {
   position: relative;
   width: 100vw;
+  font-family: 'Caveat', cursive;
 }
 
 .content {
@@ -96,7 +97,7 @@ button:hover {
 .bet-entries p {
   width: 30%;
   padding-right: 1rem;
-  font-family: 'Caveat', cursive;
+  /*font-family: "Raleway", sans-serif;*/
 }
 
 .name {
