@@ -63,9 +63,9 @@ app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
     // const NAME_CHECK = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
     // const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
-    const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,?)`;
+    const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
     // connection.query(INSERT_BET, (err, res) => {
-    connection.query(INSERT_BET,[name,bet,CURTIME()] ,(err, result) => {
+    connection.query(INSERT_BET,[name,bet] ,(err, result) => {
         if (err) {
             return res.send(err);
         }
