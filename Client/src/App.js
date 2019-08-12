@@ -47,9 +47,9 @@ class App extends Component {
     renderBets = ({ bet_id, name, bet, timestamp}) =>
         <div className="bet-table">
             <div className="bet-entries" key={bet_id}>
-                <p className="bet-names">{name}</p>
-                <p className="bet-entry">{bet}</p>
-                <p className="bet-timestamp">{timestamp}</p>
+                <p>{name}</p>
+                <p>{bet}</p>
+                <p>{timestamp}</p>
             </div>
         </div>;
 
