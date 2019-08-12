@@ -21,7 +21,7 @@ class Form extends Component {
 
         const { bet } = this.state;
 
-        fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`)//http://ec2-54-157-54-3.compute-1.amazonaws.com //localhost:4000 //?name=${bet.person_name}&bet=${bet.time_bet}
+        fetch(`http://ec2-54-157-54-3.compute-1.amazonaws.com/bets/add?name=${bet.person_name}&bet=${bet.time_bet}`)
             .then(response => response.json())
             .then(this.getBets)
             .catch(err => console.error(err))
@@ -45,7 +45,7 @@ class Form extends Component {
                     value={bet.time_bet}
                     onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
                 />
-                <button onClick={()=>{ this.addBet(); this.toggleHidden() }}>Wette abgeben</button>
+                <button onClick={()=>{ this.addBet(); this.toggleHidden(); this.getBets() }}>Wette abgeben</button>
                 {!this.state.isHidden && <Child />}
             </div>
         )
