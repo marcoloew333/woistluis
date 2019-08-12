@@ -64,8 +64,12 @@ button:hover {
   width: 25%;
 }
 
-.bet-entry {
-
+.column-titles {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .name {

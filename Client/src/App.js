@@ -46,11 +46,6 @@ class App extends Component {
 
     renderBets = ({ bet_id, name, bet, timestamp}) =>
         <div className="bet-table">
-            <div className="column-titles">
-                <p>Name</p>
-                <p>Geschätzte Ankunftszeit</p>
-                <p>Timestamp</p>
-            </div>
             <div className="bet-entries" key={bet_id}>
                 <p className="bet-names">{name}</p>
                 <p className="bet-entry">{bet}</p>
@@ -82,6 +77,11 @@ class App extends Component {
                     {!this.state.isHidden && <BetSuccess />}
                 </div>
                 <div className="bet-container">
+                    <div className="column-titles">
+                        <p>Name</p>
+                        <p>Geschätzte Ankunftszeit</p>
+                        <p>Timestamp</p>
+                    </div>
                     {bets.map(this.renderBets)}
                 </div>
             </div>
