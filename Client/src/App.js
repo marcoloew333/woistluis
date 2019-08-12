@@ -45,13 +45,11 @@ class App extends Component {
     };
 
     renderBets = ({ bet_id, name, bet, timestamp}) =>
-        <div className="bet-table">
             <div className="bet-entries" key={bet_id}>
                 <p>{name}</p>
                 <p>{bet}</p>
                 <p>{timestamp}</p>
-            </div>
-        </div>;
+            </div>;
 
     render() {
     const { bets, bet } = this.state;

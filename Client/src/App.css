@@ -60,6 +60,10 @@ button:hover {
 
 .bet-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 3rem;
   width: 25%;
 }
