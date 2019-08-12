@@ -44,17 +44,25 @@ class App extends Component {
         .catch(err => console.error(err))
     };
 
-    renderBets = ({ bet_id, name, bet}) =>
-      <div key={bet_id}>
-        <p>{name}</p>
-        <p>{bet}</p>
-      </div>;
+    renderBets = ({ bet_id, name, bet, timestamp}) =>
+        <div className="bet-table">
+            <div className="column-titles">
+                <p>Name</p>
+                <p>Geschätzte Ankunftszeit</p>
+                <p>Timestamp</p>
+            </div>
+            <div className="bet-entries" key={bet_id}>
+                <p className="bet-names">{name}</p>
+                <p className="bet-entry">{bet}</p>
+                <p className="bet-timestamp">{timestamp}</p>
+            </div>
+        </div>;
 
     render() {
     const { bets, bet } = this.state;
 
         return (
-            <div>
+            <div className="app-container">
                 <div className="form-container">
                     <label htmlFor="name">Name</label>
                     <input
@@ -71,7 +79,7 @@ class App extends Component {
                         onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
                     />
                     <button onClick={()=>{ this.addBet(); this.toggleHidden(); this.getBets() }}>Wette abgeben</button>
-                    {!this.state.isHidden && <Child />}
+                    {!this.state.isHidden && <BetSuccess />}
                 </div>
                 <div className="bet-container">
                     {bets.map(this.renderBets)}
@@ -81,10 +89,9 @@ class App extends Component {
     }
 }
 
-const Child = () => (
+const BetSuccess = () => (
     <div className='modal'>
         <p>Wette erfolgreich eingetragen.</p>
-        <p>Seite bitte neu laden.</p>
     </div>
 );
 
