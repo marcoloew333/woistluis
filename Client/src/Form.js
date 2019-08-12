@@ -45,7 +45,7 @@ class Form extends Component {
                     value={bet.time_bet}
                     onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
                 />
-                <button onClick={()=>{ this.addBet(); this.toggleHidden(); this.getBets() }}>Wette abgeben</button>
+                <button onClick={()=>{ this.addBet(); this.toggleHidden() }}>Wette abgeben</button>
                 {!this.state.isHidden && <Child />}
             </div>
         )

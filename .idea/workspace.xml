@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/precache-manifest.5a8f32961b30fd918317532d59d1445a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/css/main.2754d977.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/css/main.2754d977.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/js/2.7e675ef3.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/js/2.7e675ef3.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/js/main.b2fee679.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/build/static/js/main.b2fee679.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/Form.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,13 +26,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+            <state relative-caret-position="631">
+              <caret line="65" column="88" selection-start-line="65" selection-start-column="88" selection-end-line="65" selection-end-column="88" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="705">
+              <caret line="47" column="99" selection-start-line="33" selection-start-column="16" selection-end-line="47" selection-end-column="99" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -61,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/Bets.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="465">
+              <caret line="31" column="18" selection-start-line="29" selection-start-column="12" selection-end-line="31" selection-end-column="18" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -84,6 +105,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="1698" selection-start-column="1698" selection-end-column="1698" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -138,7 +168,6 @@
         <option value="$PROJECT_DIR$/Client/src/Header.css" />
         <option value="$PROJECT_DIR$/Client/src/Header.js" />
         <option value="$PROJECT_DIR$/Client/src/Betse.js" />
-        <option value="$PROJECT_DIR$/Client/src/App.js" />
         <option value="$PROJECT_DIR$/Client/src/App.css" />
         <option value="$PROJECT_DIR$/Client/src/Bets.css" />
         <option value="$PROJECT_DIR$/Client/build/index.html" />
@@ -146,6 +175,7 @@
         <option value="$PROJECT_DIR$/Client/src/Bets.js" />
         <option value="$PROJECT_DIR$/Client/src/Form.css" />
         <option value="$PROJECT_DIR$/Client/src/Form.js" />
+        <option value="$PROJECT_DIR$/Client/src/App.js" />
       </list>
     </option>
   </component>
@@ -194,6 +224,12 @@
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="woistluis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="woistluis" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="woistluis" type="b2602c69:ProjectViewProjectNode" />
@@ -276,14 +312,7 @@
       <workItem from="1565370166616" duration="6420000" />
       <workItem from="1565522833166" duration="582000" />
       <workItem from="1565533082078" duration="5116000" />
-      <workItem from="1565625993760" duration="480000" />
-    </task>
-    <task id="LOCAL-00025" summary="Changed a lot 22">
-      <created>1564924877949</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1564924877949</updated>
+      <workItem from="1565625993760" duration="1111000" />
     </task>
     <task id="LOCAL-00026" summary="Changed a lot 23">
       <created>1564929198485</created>
@@ -621,11 +650,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565550477806</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Changed a lot 69">
+      <created>1565627150611</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1565627150612</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39163000" />
+    <option name="totallyTimeSpent" value="39794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -657,7 +693,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed a lot 44" />
     <MESSAGE value="Changed a lot 45" />
     <MESSAGE value="Changed a lot 46" />
     <MESSAGE value="Changed a lot 47" />
@@ -682,7 +717,8 @@
     <MESSAGE value="Changed a lot 66" />
     <MESSAGE value="Changed a lot 67" />
     <MESSAGE value="Changed a lot 68" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 68" />
+    <MESSAGE value="Changed a lot 69" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 69" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/static/js/2.4282bdd0.chunk.js" />
@@ -704,27 +740,11 @@
     <entry file="file://$PROJECT_DIR$/Client/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/build/static/js/2.4282bdd0.chunk.js.map" />
     <entry file="file://$PROJECT_DIR$/Client/.gitignore" />
     <entry file="file://$PROJECT_DIR$/Client/server.js" />
     <entry file="file://$PROJECT_DIR$/Client/build/static/js/2.4282bdd0.chunk.js" />
     <entry file="file://$PROJECT_DIR$/Client/build/static/js/main.3af72dc0.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/Client/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -794,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1698" selection-start-column="1698" selection-end-column="1698" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/server2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -808,30 +821,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/App.js">
+    <entry file="file://$PROJECT_DIR$/Client/src/Form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        <state relative-caret-position="705">
+          <caret line="47" column="99" selection-start-line="33" selection-start-column="16" selection-end-line="47" selection-end-column="99" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1698" selection-start-column="1698" selection-end-column="1698" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/Bets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="465">
+          <caret line="31" column="18" selection-start-line="29" selection-start-column="12" selection-end-line="31" selection-end-column="18" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/Form.js">
+    <entry file="file://$PROJECT_DIR$/Client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="631">
+          <caret line="65" column="88" selection-start-line="65" selection-start-column="88" selection-end-line="65" selection-end-column="88" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
