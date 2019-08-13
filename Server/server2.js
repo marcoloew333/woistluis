@@ -57,9 +57,11 @@ app.get("/bets", (req, res) => {
 app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
     const NAME_CHECK = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
-    const INSERT_BET = `SET TIME ZONE +2:00 INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
-    const UPDATE_BET = `UPDATE bets SET bet=? WHERE name=?`;
+    const TIME_ZONE = `SET TIME ZONE +2:00`;
+    const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
+    const UPDATE_BET = `UPDATE bets SET (bet, timestamp) VALUES(?, CURTIME()) WHERE name=?`;
     if (connection.query(NAME_CHECK)) {
+        connection.query(TIME_ZONE);
         connection.query(UPDATE_BET, [bet, name], (err, result) => {
             if (err) {
                 return res.send(err, NAME_CHECK)
@@ -71,6 +73,7 @@ app.get("/bets/add", (req, res) => {
             }
         })
     } else {
+        connection.query(TIME_ZONE);
         connection.query(INSERT_BET,[name, bet],(err, result) => {
             if (err) {
                 return res.send(err);
