@@ -56,6 +56,9 @@ class App extends Component {
 
         return (
             <div className="app-container">
+                <div className="header">
+                    <p>Wo Ist Luis?</p>
+                </div>
                 <div className="form-container">
                     <label htmlFor="name">Name</label>
                     <input

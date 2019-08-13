@@ -4,6 +4,16 @@
   font-family: 'Caveat', cursive;
 }
 
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background: #000;
+  color: #FFF;
+}
+
 .content {
   position: relative;
   display: flex;
