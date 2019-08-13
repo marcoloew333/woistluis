@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const mysql = require("mysql");
-// import Bets from "/home/ubuntu/woistluis/Client/src/Bets";
 
 const app = express(); //initialize express
 
@@ -48,7 +47,8 @@ app.get("/bets", (req, res) => {
         }
         else {
             return res.json({
-                data: results
+                data: results,
+                test: "penis"
             })
         }
     })
@@ -56,18 +56,28 @@ app.get("/bets", (req, res) => {
 
 app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
-    // const NAME_CHECK = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
-    // const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
+    const NAME_CHECK = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
-    // connection.query(INSERT_BET, (err, res) => {
-    connection.query(INSERT_BET,[name,bet] ,(err, result) => {
-        if (err) {
-            return res.send(err);
-        }
-        else {
-            return res.send({"some":"json"});
-        }
-    })
+    const UPDATE_BET = `UPDATE bets SET bet=? WHERE name=?`;
+    if (connection.query(NAME_CHECK)) {
+        connection.query(UPDATE_BET, [bet, name], (err, result) => {
+            if (err) {
+                return res.send(err)
+            } else {
+                return res.send({"success":"true"})
+            }
+        })
+    } else {
+        connection.query(INSERT_BET,[name, bet],(err, result) => {
+            if (err) {
+                return res.send(err);
+            }
+            else {
+                return res.send({"some":"json"});
+            }
+        })
+    }
+    // const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
 });
 
 app.listen(4000, () => {
