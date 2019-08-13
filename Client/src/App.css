@@ -1,3 +1,14 @@
+.app-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100vw;
+  font-family: 'Caveat', cursive;
+  font-size: 150%;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -21,28 +32,19 @@
 
 button {
   background-color: #00be00;
-  font-size: 14px;
   padding: 10px 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   transition-duration: 0.4s;
   border: 2px solid #00be00;
+  font-family: "Caveat", cursive;
+  font-size: 14px;
 }
 
 button:hover {
   background-color: #004400;
   color: #FFF;
-}
-
-.app-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100vw;
-  font-family: 'Caveat', cursive;
 }
 
 .form-container {

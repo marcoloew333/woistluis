@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/server2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/server2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+            <state relative-caret-position="386">
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -31,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            <state relative-caret-position="470">
+              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -46,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/server2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+            <state relative-caret-position="606">
+              <caret line="60" column="60" lean-forward="true" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -102,9 +103,9 @@
         <option value="$PROJECT_DIR$/Client/src/Form.css" />
         <option value="$PROJECT_DIR$/Client/src/Form.js" />
         <option value="$PROJECT_DIR$/Client/public/index.html" />
-        <option value="$PROJECT_DIR$/Client/src/App.js" />
-        <option value="$PROJECT_DIR$/Client/src/App.css" />
         <option value="$PROJECT_DIR$/Server/server2.js" />
+        <option value="$PROJECT_DIR$/Client/src/App.css" />
+        <option value="$PROJECT_DIR$/Client/src/App.js" />
       </list>
     </option>
   </component>
@@ -229,21 +230,7 @@
       <workItem from="1565625993760" duration="5230000" />
       <workItem from="1565642531076" duration="361000" />
       <workItem from="1565671786531" duration="985000" />
-      <workItem from="1565720199671" duration="1614000" />
-    </task>
-    <task id="LOCAL-00048" summary="Changed a lot 45">
-      <created>1565373308373</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1565373308373</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Changed a lot 46">
-      <created>1565382910127</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1565382910127</updated>
+      <workItem from="1565720199671" duration="2295000" />
     </task>
     <task id="LOCAL-00050" summary="Changed a lot 46">
       <created>1565382954627</created>
@@ -574,11 +561,25 @@
       <option name="project" value="LOCAL" />
       <updated>1565672926060</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Changed a lot 92">
+      <created>1565722091875</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1565722091875</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Changed a lot 93">
+      <created>1565722298035</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1565722298035</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46873000" />
+    <option name="totallyTimeSpent" value="47554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -610,8 +611,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed a lot 67" />
-    <MESSAGE value="Changed a lot 68" />
     <MESSAGE value="Changed a lot 69" />
     <MESSAGE value="Changed a lot 70" />
     <MESSAGE value="Changed a lot 71" />
@@ -635,7 +634,9 @@
     <MESSAGE value="Changed a lot 89" />
     <MESSAGE value="Changed a lot 90" />
     <MESSAGE value="Changed a lot 91" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 91" />
+    <MESSAGE value="Changed a lot 92" />
+    <MESSAGE value="Changed a lot 93" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 93" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/static/js/2.4282bdd0.chunk.js" />
@@ -764,27 +765,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Server/server2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="60" column="60" lean-forward="true" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="470">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        <state relative-caret-position="386">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/server2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
         </state>
       </provider>
     </entry>

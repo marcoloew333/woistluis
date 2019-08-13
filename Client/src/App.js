@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 import './App.css';
-import "./Header"
-// import Header from "./Header";
-// import Form from "./Form";
-// import Bets from "./Bets";
 
 class App extends Component {
 
@@ -57,7 +53,7 @@ class App extends Component {
         return (
             <div className="app-container">
                 <div className="header">
-                    <p>Wo Ist Luis?</p>
+                    <h1>Wo Ist Luis?</h1>
                 </div>
                 <div className="content">
                     <div className="form-container">
@@ -77,6 +73,7 @@ class App extends Component {
                         />
                         <button onClick={()=>{ this.addBet(); this.toggleHidden(); this.getBets() }}>Wette abgeben</button>
                         {!this.state.isHidden && <BetSuccess />}
+                        <p>Um deine Wette zu aktualisieren, einfach mit deinem Namen neu wetten.</p>
                     </div>
                     <div className="bet-container">
                         <div className="column-titles">
