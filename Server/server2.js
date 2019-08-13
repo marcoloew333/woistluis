@@ -62,9 +62,12 @@ app.get("/bets/add", (req, res) => {
     if (connection.query(NAME_CHECK)) {
         connection.query(UPDATE_BET, [bet, name], (err, result) => {
             if (err) {
-                return res.send(err)
+                return res.send(err, NAME_CHECK)
             } else {
-                return res.send({"success":"true"})
+                return res.send({
+                    success: true,
+                    check: NAME_CHECK
+                })
             }
         })
     } else {
