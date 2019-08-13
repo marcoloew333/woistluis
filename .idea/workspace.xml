@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -251,14 +251,7 @@
       <workItem from="1565533082078" duration="5116000" />
       <workItem from="1565625993760" duration="5230000" />
       <workItem from="1565642531076" duration="361000" />
-      <workItem from="1565671786531" duration="553000" />
-    </task>
-    <task id="LOCAL-00044" summary="Changed a lot 41">
-      <created>1565204910053</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1565204910053</updated>
+      <workItem from="1565671786531" duration="667000" />
     </task>
     <task id="LOCAL-00045" summary="Changed a lot 42">
       <created>1565205210341</created>
@@ -596,17 +589,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565672241683</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Changed a lot 88">
+      <created>1565672559834</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1565672559834</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44827000" />
+    <option name="totallyTimeSpent" value="44941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -619,7 +619,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.30291972" />
@@ -632,7 +632,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed a lot 63" />
     <MESSAGE value="Changed a lot 64" />
     <MESSAGE value="Changed a lot 65" />
     <MESSAGE value="Changed a lot 66" />
@@ -657,7 +656,8 @@
     <MESSAGE value="Changed a lot 85" />
     <MESSAGE value="Changed a lot 86" />
     <MESSAGE value="Changed a lot 87" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 87" />
+    <MESSAGE value="Changed a lot 88" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 88" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/static/js/2.4282bdd0.chunk.js" />
@@ -805,8 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
