@@ -39,7 +39,7 @@ button {
   transition-duration: 0.4s;
   border: 2px solid #00be00;
   font-family: "Caveat", cursive;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 button:hover {
