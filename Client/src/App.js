@@ -59,31 +59,33 @@ class App extends Component {
                 <div className="header">
                     <p>Wo Ist Luis?</p>
                 </div>
-                <div className="form-container">
-                    <label htmlFor="name">Name</label>
-                    <input
-                        id="name"
-                        className="name-input"
-                        value={bet.person_name}
-                        onChange={e => this.setState({bet: { ...bet, person_name: e.target.value}})}
-                    />
-                    <label htmlFor="bet">Geschätzte Ankunftszeit</label>
-                    <input
-                        id="bet"
-                        className="bet-input"
-                        value={bet.time_bet}
-                        onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
-                    />
-                    <button onClick={()=>{ this.addBet(); this.toggleHidden(); this.getBets() }}>Wette abgeben</button>
-                    {!this.state.isHidden && <BetSuccess />}
-                </div>
-                <div className="bet-container">
-                    <div className="column-titles">
-                        <p>Name</p>
-                        <p>Zeit</p>
-                        <p>Timestamp</p>
+                <div className="content">
+                    <div className="form-container">
+                        <label htmlFor="name">Name</label>
+                        <input
+                            id="name"
+                            className="name-input"
+                            value={bet.person_name}
+                            onChange={e => this.setState({bet: { ...bet, person_name: e.target.value}})}
+                        />
+                        <label htmlFor="bet">Geschätzte Ankunftszeit</label>
+                        <input
+                            id="bet"
+                            className="bet-input"
+                            value={bet.time_bet}
+                            onChange={e => this.setState({bet: { ...bet, time_bet: e.target.value}})}
+                        />
+                        <button onClick={()=>{ this.addBet(); this.toggleHidden(); this.getBets() }}>Wette abgeben</button>
+                        {!this.state.isHidden && <BetSuccess />}
                     </div>
-                    {bets.map(this.renderBets)}
+                    <div className="bet-container">
+                        <div className="column-titles">
+                            <p>Name</p>
+                            <p>Zeit</p>
+                            <p>Timestamp</p>
+                        </div>
+                        {bets.map(this.renderBets)}
+                    </div>
                 </div>
             </div>
         )
