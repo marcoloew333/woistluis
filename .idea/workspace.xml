@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Server/server2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="528">
+              <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -229,21 +229,7 @@
       <workItem from="1565625993760" duration="5230000" />
       <workItem from="1565642531076" duration="361000" />
       <workItem from="1565671786531" duration="985000" />
-      <workItem from="1565720199671" duration="5692000" />
-    </task>
-    <task id="LOCAL-00057" summary="Changed a lot 52">
-      <created>1565523141068</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1565523141069</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Changed a lot 53">
-      <created>1565523375215</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1565523375216</updated>
+      <workItem from="1565720199671" duration="6143000" />
     </task>
     <task id="LOCAL-00059" summary="Changed a lot 54">
       <created>1565533420836</created>
@@ -574,11 +560,25 @@
       <option name="project" value="LOCAL" />
       <updated>1565726711038</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Changed a lot 101">
+      <created>1565726905400</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1565726905401</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Changed a lot 102">
+      <created>1565727102878</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1565727102878</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50951000" />
+    <option name="totallyTimeSpent" value="51402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -610,8 +610,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed a lot 76" />
-    <MESSAGE value="Changed a lot 77" />
     <MESSAGE value="Changed a lot 78" />
     <MESSAGE value="Changed a lot 79" />
     <MESSAGE value="Changed a lot 80" />
@@ -635,7 +633,9 @@
     <MESSAGE value="Changed a lot 98" />
     <MESSAGE value="Changed a lot 99" />
     <MESSAGE value="Changed a lot 100" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 100" />
+    <MESSAGE value="Changed a lot 101" />
+    <MESSAGE value="Changed a lot 102" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 102" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/static/js/2.4282bdd0.chunk.js" />
@@ -783,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Server/server2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        <state relative-caret-position="528">
+          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
         </state>
       </provider>
     </entry>
