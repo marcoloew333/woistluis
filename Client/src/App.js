@@ -96,7 +96,9 @@ class App extends Component {
                             />
                             <button onClick={() => {}}>Ankunftszeit eintragen</button>
                         </div>
-                        <ArrivalTime/>
+                        <div>
+                            <p>Ankunftszeit: {this.state.real_time}</p>
+                        </div>
                     </div>
                     <div className="bet-container">
                         <div className="column-titles">
@@ -117,11 +119,5 @@ const BetSuccess = () => (
         <p>Wette erfolgreich eingetragen.</p>
     </div>
 );
-
-const ArrivalTime = () => (
-    <div>
-        <p>Ankunftszeit: {this.state.real_time}</p>
-    </div>
-)
 
 export default App;
