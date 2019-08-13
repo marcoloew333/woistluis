@@ -57,6 +57,10 @@ button:hover {
   padding: 3rem;
 }
 
+.luis {
+  margin-top: 3rem;
+}
+
 .name-input,
 .bet-input {
   width: 50%;
@@ -91,7 +95,7 @@ button:hover {
 .column-titles p {
   width: 30%;
   padding-right: 1rem;
-  font-size: 250%;
+  font-size: 200%;
   font-family: 'Caveat', cursive;
 }
 
@@ -107,7 +111,7 @@ button:hover {
 .bet-entries p {
   width: 30%;
   padding-right: 1rem;
-  font-size: 150%;
+  font-size: 100%;
   font-family: 'Caveat', cursive;
 }
 

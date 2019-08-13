@@ -9,6 +9,7 @@ class App extends Component {
           person_name: "Peter Pan",
           time_bet: "10:17 Uhr"
         },
+        real_time: "",
         isHidden: true
     };
 
@@ -47,6 +48,10 @@ class App extends Component {
                 <p>{timestamp}</p>
             </div>;
 
+    setArrivalTime = () => {
+
+    };
+
     render() {
     const { bets, bet } = this.state;
 
@@ -74,6 +79,24 @@ class App extends Component {
                         <button onClick={()=>{ this.addBet(); this.toggleHidden(); this.getBets() }}>Wette abgeben</button>
                         {!this.state.isHidden && <BetSuccess />}
                         <p>Um deine Wette zu aktualisieren, einfach mit deinem Namen neu wetten.</p>
+                        <div className="luis">
+                            <p>Tatsächliche Ankunftszeit</p>
+                            <label>Ankunftszeit</label>
+                            <input
+                                id="real-time"
+                                className="real-time"
+                                value="25:13 Uhr"
+                                onChange={e => this.setState({real_time: e.target.value})}
+                            />
+                            <label>Passwort</label>
+                            <input
+                                id="pw"
+                                className="luis-pw"
+                                value="passwort"
+                            />
+                            <button onClick={() => {}}>Ankunftszeit eintragen</button>
+                        </div>
+                        <ArrivalTime/>
                     </div>
                     <div className="bet-container">
                         <div className="column-titles">
@@ -94,5 +117,11 @@ const BetSuccess = () => (
         <p>Wette erfolgreich eingetragen.</p>
     </div>
 );
+
+const ArrivalTime = () => (
+    <div>
+        <p>Ankunftszeit: {this.state.real_time}</p>
+    </div>
+)
 
 export default App;
