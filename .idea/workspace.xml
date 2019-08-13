@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93223b3-0eea-4f58-9048-af769b3e2093" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -253,14 +251,7 @@
       <workItem from="1565533082078" duration="5116000" />
       <workItem from="1565625993760" duration="5230000" />
       <workItem from="1565642531076" duration="361000" />
-      <workItem from="1565671786531" duration="309000" />
-    </task>
-    <task id="LOCAL-00043" summary="Changed a lot 40">
-      <created>1565204844008</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1565204844009</updated>
+      <workItem from="1565671786531" duration="553000" />
     </task>
     <task id="LOCAL-00044" summary="Changed a lot 41">
       <created>1565204910053</created>
@@ -598,11 +589,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565642884891</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Changed a lot 87">
+      <created>1565672241682</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1565672241683</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44583000" />
+    <option name="totallyTimeSpent" value="44827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -634,7 +632,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed a lot 62" />
     <MESSAGE value="Changed a lot 63" />
     <MESSAGE value="Changed a lot 64" />
     <MESSAGE value="Changed a lot 65" />
@@ -659,7 +656,8 @@
     <MESSAGE value="Changed a lot 84" />
     <MESSAGE value="Changed a lot 85" />
     <MESSAGE value="Changed a lot 86" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 86" />
+    <MESSAGE value="Changed a lot 87" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed a lot 87" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/static/js/2.4282bdd0.chunk.js" />
@@ -807,8 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
