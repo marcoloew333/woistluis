@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/Server/server2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+              <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -230,14 +230,8 @@
       <workItem from="1565642531076" duration="361000" />
       <workItem from="1565671786531" duration="985000" />
       <workItem from="1565720199671" duration="6238000" />
-      <workItem from="1565758988833" duration="237000" />
-    </task>
-    <task id="LOCAL-00060" summary="Changed a lot 55">
-      <created>1565540587158</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1565540587158</updated>
+      <workItem from="1565758988833" duration="358000" />
+      <workItem from="1565801990234" duration="324000" />
     </task>
     <task id="LOCAL-00061" summary="Changed a lot 56">
       <created>1565540810213</created>
@@ -575,11 +569,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565727667597</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Changed a lot 103">
+      <created>1565759234650</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1565759234650</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51497000" />
+    <option name="totallyTimeSpent" value="52179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -785,7 +786,7 @@
     <entry file="file://$PROJECT_DIR$/Server/server2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
         </state>
       </provider>
     </entry>
