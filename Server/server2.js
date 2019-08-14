@@ -66,7 +66,7 @@ app.get("/bets/add", (req, res) => {
     });
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
     const UPDATE_BET = `UPDATE bets SET bet=? WHERE name=?`;
-    if (connection.query(NAME_CHECK_RES[0].cnt) === 1) {
+    if (NAME_CHECK_RES !== 1) {
         connection.query(UPDATE_BET, [bet, name], (err, result) => {
             if (err) {
                 return res.send(err)
