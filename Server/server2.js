@@ -78,7 +78,8 @@ app.get("/bets/add", (req, res) => {
             }
             else {
                 return res.send({
-                    success: true
+                    success: true,
+                    name_check: NAME_CHECK_QUERY
                 });
             }
         })
