@@ -61,20 +61,22 @@ app.get("/bets/add", (req, res) => {
         if (err) {
             return res.send(err)
         } else {
-            return result.affectedRows
+            return res.send({
+                success: "NameCheck",
+                check: result.length
+            })
         }
     });
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
     const UPDATE_BET = `UPDATE bets SET bet=? WHERE name=?`;
-    if (NAME_CHECK_RES !== 1) {
+    if (connection.query(NAME_CHECK_RES[0].cnt) === 1) {
         connection.query(UPDATE_BET, [bet, name], (err, result) => {
             if (err) {
                 return res.send(err)
             } else {
                 return res.send({
                     success: true,
-                    check: result.affectedRows,
-                    check2: NAME_CHECK_RES
+                    check: result
                 })
             }
         })
