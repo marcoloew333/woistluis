@@ -61,10 +61,7 @@ app.get("/bets/add", (req, res) => {
         if (err) {
             return res.send(err)
         } else {
-            return res.send({
-                success: "NameCheck",
-                check: result
-            })
+            return result[0].cnt
         }
     });
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
