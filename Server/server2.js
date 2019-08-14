@@ -57,18 +57,19 @@ app.get("/bets", (req, res) => {
 app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
     const NAME_CHECK_QUERY = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
-    const NAME_CHECK_RES = function test(callback) {
-        connection.query(NAME_CHECK_QUERY, (err, result) => {
-            if (err) {
-                return res.send(err)
-            } else {
-                return res.send(callback(result[0].cnt));
-            }
-        });
-    };
+    const NAME_CHECK_RES = connection.query(NAME_CHECK_QUERY, (err, result) => {
+        if (err) {
+            return res.send(err)
+        } else {
+            return res.send({
+                success: "NameCheck",
+                check: result[0].cnt // Der Teil funktioniert. Es wird die Anzahl an zutreffenden Rows zurueckgegeben.
+            })
+        }
+    });
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
     const UPDATE_BET = `UPDATE bets SET bet=? WHERE name=?`;
-    if (NAME_CHECK_RES !== 0) {
+    if (connection.query(NAME_CHECK_RES) === 1) {
         connection.query(UPDATE_BET, [bet, name], (err, result) => {
             if (err) {
                 return res.send(err)
