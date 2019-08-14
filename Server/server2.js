@@ -69,18 +69,18 @@ app.get("/bets/add", (req, res) => {
     });
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
     const UPDATE_BET = `UPDATE bets SET bet=? WHERE name=?`;
-    if (connection.query(NAME_CHECK_RES) === 1) {
-        connection.query(UPDATE_BET, [bet, name], (err, result) => {
-            if (err) {
-                return res.send(err)
-            } else {
-                return res.send({
-                    success: true,
-                    check: result
-                })
-            }
-        })
-    } else {
+    // if (connection.query(NAME_CHECK_RES) === 1) {
+    //     connection.query(UPDATE_BET, [bet, name], (err, result) => {
+    //         if (err) {
+    //             return res.send(err)
+    //         } else {
+    //             return res.send({
+    //                 success: true,
+    //                 check: result
+    //             })
+    //         }
+    //     })
+    // } else {
         connection.query(INSERT_BET,[name, bet],(err, result) => {
             if (err) {
                 return res.send(err);
@@ -92,7 +92,7 @@ app.get("/bets/add", (req, res) => {
                 });
             }
         })
-    }
+    // }
     // const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES("${name}", "${bet}", CURTIME())`; //`SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`
 });
 
