@@ -57,7 +57,7 @@ app.get("/bets", (req, res) => {
 app.get("/bets/add", (req, res) => {
     const {name, bet} = req.query;
     const NAME_CHECK_QUERY = `SELECT bet, COUNT(*) as cnt FROM bets WHERE name = "${name}"`;
-    const NAME_CHECK_RES = connection.query(NAME_CHECK);
+    const NAME_CHECK_RES = connection.query(NAME_CHECK_QUERY);
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
     const UPDATE_BET = `UPDATE bets SET bet=? WHERE name=?`;
     if (connection.query(NAME_CHECK_QUERY) === 1) {
@@ -78,7 +78,8 @@ app.get("/bets/add", (req, res) => {
             }
             else {
                 return res.send({
-                    success: true
+                    success: true,
+                    name_check: NAME_CHECK_RES
                 });
             }
         })
