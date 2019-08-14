@@ -61,7 +61,7 @@ app.get("/bets/add", (req, res) => {
         if (err) {
             return res.send(err)
         } else {
-            return result[0].cnt
+            return result.affectedRows
         }
     });
     const INSERT_BET = `INSERT INTO bets (name, bet, timestamp) VALUES(?,?,CURTIME())`;
@@ -73,8 +73,8 @@ app.get("/bets/add", (req, res) => {
             } else {
                 return res.send({
                     success: true,
-                    check: result,
-                    name_check: NAME_CHECK_RES
+                    check: result.affectedRows,
+                    check2: NAME_CHECK_RES
                 })
             }
         })
