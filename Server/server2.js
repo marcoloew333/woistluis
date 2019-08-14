@@ -62,7 +62,7 @@ app.get("/bets/add", (req, res) => {
             if (err) {
                 return res.send(err)
             } else {
-                return callback(result[0].cnt);
+                return res.send(callback(result[0].cnt));
             }
         });
     };
