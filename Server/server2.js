@@ -63,7 +63,7 @@ app.get("/bets/add", (req, res) => {
         } else {
             return res.send({
                 success: "NameCheck",
-                check: result.length
+                check: result[0].cnt
             })
         }
     });
